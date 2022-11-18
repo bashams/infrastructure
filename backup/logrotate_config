@@ -1,0 +1,19 @@
+/opt/log/sausage-store-backend.log {
+size 10M
+hourly
+dateext
+dateformat -%Y-%m-%d_%H-%s
+rotate 3
+compress
+create
+} 
+
+/opt/log/sausage-store-frontend.log {
+size 10M
+hourly
+dateext
+dateformat -%Y-%m-%d_%H-%s
+rotate 3
+compress
+create
+}
